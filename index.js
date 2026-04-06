@@ -90,8 +90,9 @@ charactersMap.forEach((row,i)=>{
                 new CharacterData({
                     position:{
                         x: j * Boundary.width + offset.x,
-                        y: i * Boundary.height + offset.y,
-                    }
+                        y: i * Boundary.height + offset.y
+                    },
+                    image: oldManImg,
                 })
             )
         }
