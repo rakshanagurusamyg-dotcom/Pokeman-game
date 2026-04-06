@@ -79,7 +79,19 @@ charactersMap.forEach((row,i)=>{
                         hold: 60
                     },
                     scale: 3,
-                    animate: true
+                    animate: true,
+                    dialogue: ['...','Hey mister,have you seen my Doggochu?']
+                })
+            )
+        }
+        //1031 ===oldMan
+        else if(symbol === 1031){
+            characters.push(
+                new CharacterData({
+                    position:{
+                        x: j * Boundary.width + offset.x,
+                        y: i * Boundary.height + offset.y,
+                    }
                 })
             )
         }
